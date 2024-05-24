@@ -235,11 +235,11 @@ if __name__ == "__main__":
     question = Question(
         _id=1,
         author=nick,
-        tags=["elasticsearch", "python"],
-        title="How do I use elasticsearch from Python?",
+        tags=["elasticsearch7", "python"],
+        title="How do I use elasticsearch7 from Python?",
         body="""
-        I want to use elasticsearch, how do I do it from Python?
+        I want to use elasticsearch7, how do I do it from Python?
         """,
     )
     question.save()
-    answer = question.add_answer(honza, "Just use `elasticsearch-py`!")
+    answer = question.add_answer(honza, "Just use `elasticsearch7-py`!")
